@@ -1,0 +1,39 @@
+source "https://rubygems.org"
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby ">= 3.1.0"
+
+# Rails core framework
+gem "rails", "~> 7.0.8"
+
+# PostgreSQL database adapter
+gem "pg", "~> 1.5"
+
+# Web server
+gem "puma", "~> 6.0"
+
+# Password hashing via bcrypt
+gem "bcrypt", "~> 3.1.7"
+
+# JWT token generation and decoding
+gem "jwt", "~> 2.7"
+
+# Stripe Payment Processing SDK
+gem "stripe", "~> 10.0"
+
+# Geocoding & geospatial calculations
+gem "geocoder", "~> 1.8"
+
+# Rack CORS for cross-origin resource sharing
+gem "rack-cors", "~> 2.0"
+
+# Environment variables management
+gem "dotenv-rails", "~> 2.8", groups: [:development, :test]
+
+group :development, :test do
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+end
+
+group :development do
+  gem "bootsnap", require: false
+end

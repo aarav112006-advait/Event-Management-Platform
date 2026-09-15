@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Rails
+backend/log/
+backend/tmp/
+backend/storage/
+backend/.bundle/
+
+# Rails secrets
+backend/config/master.key
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Build files
+dist/
+build/
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
