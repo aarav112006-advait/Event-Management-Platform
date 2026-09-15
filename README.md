@@ -965,15 +965,3 @@ This project is licensed under the **MIT License**.
 See the `LICENSE` file for details.
 
 ------------------------------------------------------------------------
-
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}🎟️ Discover More. Book Smarter. Experience
-Better.`</strong>`{=html}`<br>`{=html}`<br>`{=html}
-`<em>`{=html}EventSphere --- Event Management
-Platform`</em>`{=html}`<br>`{=html} React 18 • Rails 7 • PostgreSQL •
-Stripe • Google Maps
-```{=html}
-</p>
-```
